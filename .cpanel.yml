@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/techism1/test.tthreat.com
+    - /bin/cp -R images $DEPLOYPATH
